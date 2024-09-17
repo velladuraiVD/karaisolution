@@ -1,10 +1,10 @@
 import React from 'react'
-import logo from "./Assets/newlogo.png"
+import logo from "../Assets/newlogo.png"
 import { IoIosMenu } from "react-icons/io";
 
 export default function NavBar() {
     return (
-        <div className='bg-white lg:flex-row   xl:flex justify-around items-center flex-wrap sticky top-0 '>
+        <div className='bg-white lg:flex-row   xl:flex justify-around items-center flex-wrap sticky top-0 p-4 z-10'>
             <div className='flex justify-center items-center gap-3 mt-3 flex-wrap' >
                 <img src={logo} alt="img" className='h-[50px] mt-3 hover:text-gray-950' />
                 <div className='flex-row justify-center  xl:flex-col '>

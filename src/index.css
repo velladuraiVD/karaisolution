@@ -16,6 +16,8 @@ code {
 @tailwind components;
 @tailwind utilities;
 
+
+
 .container{
   margin: 0;
   padding:0;

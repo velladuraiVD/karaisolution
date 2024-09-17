@@ -1,7 +1,9 @@
 
 
-import ContactCard from './ContactCard';
-import NavBar from './NavBar';
+import Carousel from './Home/Carousel';
+import ContactCard from './Home/ContactCard';
+import Home from './Home/Home';
+import NavBar from './Home/NavBar';
 
 function App() {
   return (
@@ -10,8 +12,7 @@ function App() {
 
       <div className='flex justify-center items-center'>
         <div className='container'>
-          <ContactCard />
-          <NavBar />
+          <Home/>
         </div>
       </div>
     </>
