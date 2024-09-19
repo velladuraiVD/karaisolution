@@ -34,7 +34,7 @@ export default function Carousel() {
     }
 
     return (
-        <div className='w-full m-auto relative group'> 
+        <div className='w-full m-auto relative group object-cover'> 
             {/* Image Div */}
             <div 
                 style={{ backgroundImage: `url(${slides[currentIndex].img})` }} 

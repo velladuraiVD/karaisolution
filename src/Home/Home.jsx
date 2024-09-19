@@ -1,18 +1,20 @@
 import React from 'react'
 import Carousel from './Carousel'
-import NavBar from './NavBar'
-import ContactCard from './ContactCard'
 import Mission from './Mission'
 import Service from './Service'
+import Contact from './Contact'
+import img from '../Assets/1 (1).jpg'
+
 
 export default function Home() {
     return (
-        <div>
-            <ContactCard />
-            <NavBar />
+        <div className='mx-10'>
+           
             <Carousel />
             <Mission />
-            <Service/>
+            <Service />
+            {/* <Contact className='absolute'/> */}
+            
 
         </div>
     )
