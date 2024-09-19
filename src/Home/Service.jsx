@@ -40,7 +40,7 @@ export default function Service() {
             </div>
 
 
-            <Carousel className='m-10'
+            <Carousel className='m-12 -z-10'
                 partialVisbile={false}
                 swipeable={false}
                 draggable={false}
@@ -60,56 +60,56 @@ export default function Service() {
                 dotListClass="custom-dot-list-style"
 
             >
-                <div className='bg-black flex flex-col justify-evenly items-center m-8 h-[400px] hover:bg-red-600 group hover: text-black '>
+                <div className='bg-black flex flex-col justify-evenly items-center m-8 h-[450px]  hover:bg-red-600 group hover: text-black '>
                     <img src={i1} alt="" />
                     <h1 className='text-white text-xl font-bold'>Cloud Service</h1>
                     <p className='text-white text-center text-md leading-8 mx-5'>Cloud Platform Services is an open business platform designed to help you innovate, integrate and enlarge applications</p>
                     <p className='text-red-700 text-lg font-medium mt-5 group-hover:text-black '><a href="">Read more</a></p>
                 </div>
 
-                <div className='bg-black flex flex-col justify-evenly items-center m-8 h-[400px]  hover:bg-red-600 group hover: text-black '>
+                <div className='bg-black flex flex-col justify-evenly items-center m-8 h-[450px]  hover:bg-red-600 group hover: text-black '>
                     <img className='' src={i2} alt="" />
                     <h1 className='text-white text-xl font-bold'>CMS</h1>
                     <p className='text-white text-center text-md leading-8 mx-5'>A content management system is a web application designed to make it accessible for non-technical users to add, edit and maintain a website.</p>
                     <p className='text-red-700 text-lg mt-5   font-medium group-hover:text-black'><a href="">Read more</a></p>
                 </div>
 
-                <div className='bg-black flex flex-col justify-evenly items-center m-8 h-[400px]  hover:bg-red-600 group hover: text-black '>
+                <div className='bg-black flex flex-col justify-evenly items-center m-8 h-[450px]  hover:bg-red-600 group hover: text-black '>
                     <img src={i3} alt="" />
                     <h1 className='text-white text-xl font-bold'>DevOps</h1>
                     <p className='text-white text-center text-md leading-8 mx-5'>In simple words, DevOps is an assortment of practices that automates the processes between software development and IT teams,</p>
                     <p className='text-red-700 text-lg mt-5  font-medium group-hover:text-black'><a href="">Read more</a></p>
                 </div>
 
-                <div className='bg-black flex flex-col justify-evenly items-center m-8 h-[400px]  hover:bg-red-600 group hover: text-black '>
+                <div className='bg-black flex flex-col justify-evenly items-center m-8 h-[450px]  hover:bg-red-600 group hover: text-black '>
                     <img src={i4} alt="" />
                     <h1 className='text-white text-xl font-bold'>E-Commerce</h1>
                     <p className='text-white text-center text-md leading-8 mx-5'>E-commerce has completely revolutionized the process of online shopping and has modified the way consumers purchase their goods</p>
                     <p className='text-red-700 text-lg mt-5  font-medium group-hover:text-black'><a href="">Read more</a></p>
                 </div>
 
-                <div className='bg-black flex flex-col justify-evenly items-center m-8 h-[400px]  hover:bg-red-600 group hover: text-black  '>
+                <div className='bg-black flex flex-col justify-evenly items-center m-8 h-[450px]  hover:bg-red-600 group hover: text-black  '>
                     <img src={i5} alt="" />
                     <h1 className='text-white text-xl font-bold'>Industry Solutions</h1>
                     <p className='text-white text-center text-md leading-8 mx-5'>Get solutions that meet your industry's specific needs - no matter the size of your organization. We design data-driven</p>
                     <p className='text-red-700 text-lg mt-5  font-medium  group-hover:text-black'><a href="">Read more</a></p>
                 </div>
 
-                <div className='bg-black flex flex-col justify-evenly items-center m-8 h-[400px]  hover:bg-red-600 group hover: text-black '>
+                <div className='bg-black flex flex-col justify-evenly items-center m-8 h-[450px]  hover:bg-red-600 group hover: text-black '>
                     <img src={i6} alt="" />
                     <h1 className='text-white text-xl font-bold'> Internet Of Things</h1>
                     <p className='text-white text-center text-md leading-8 mx-5'>As a sturdy solution for enlarging the automation across all the versatile domains, The Internet of things is an incredible vision  </p>
                     <p className='text-red-700 text-lg mt-5  font-medium group-hover:text-black'><a href="">Read more</a></p>
                 </div>
 
-                <div className='bg-black flex flex-col justify-evenly items-center m-8 h-[400px]  hover:bg-red-600 group hover: text-black  '>
+                <div className='bg-black flex flex-col justify-evenly items-center m-8 h-[450px]  hover:bg-red-600 group hover: text-black  '>
                     <img src={i7} alt="" />
-                    <h1 className='text-white text-xl font-bold'> IT Infrastructure & Security</h1>
+                    <h1 className='text-white text-xl font-bold text-center'> IT Infrastructure & Security</h1>
                     <p className='text-white text-center text-md leading-8 mx-5'>In an increasingly perilous web environment, server-level security is imperative. Your server and IT infrastructure are vulnerable to </p>
                     <p className='text-red-700 text-lg mt-5  font-medium group-hover:text-black'><a href="">Read more</a></p>
                 </div>
 
-                <div className='bg-black flex flex-col justify-evenly items-center m-8 h-[400px]  hover:bg-red-600 group hover: text-black '>
+                <div className='bg-black flex flex-col justify-evenly items-center m-8 h-[450px]  hover:bg-red-600 group hover: text-black '>
                     <img src={i8} alt="" />
                     <h1 className='text-white text-xl font-bold'>Market Automation</h1>
                     <p className='text-white text-center text-md leading-8 mx-5'>Marketing automation in simple terms can be interpreted as using software platforms and additional information technology  </p>

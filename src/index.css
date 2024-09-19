@@ -27,4 +27,16 @@ code {
 li{
   color: white;
 }
-
+#footer,p,h3{
+  color: gray;
+}
+#footer h3:hover{
+color:#20BAA5;
+cursor: pointer;
+}
+.dropdown:hover .dropdown-menu{
+  display:block;
+}
+#company li{
+  color:gray;
+}

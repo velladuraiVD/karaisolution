@@ -3,18 +3,21 @@ import Carousel from './Carousel'
 import Mission from './Mission'
 import Service from './Service'
 import Contact from './Contact'
-import img from '../Assets/1 (1).jpg'
+import Cloud from './Cloud'
+import Appoinment from './Appoinment'
 
 
 export default function Home() {
     return (
-        <div className='mx-10'>
+        <div className=''>
            
             <Carousel />
             <Mission />
             <Service />
             {/* <Contact className='absolute'/> */}
-            
+            <Cloud/>
+            <Appoinment/>
+
 
         </div>
     )
