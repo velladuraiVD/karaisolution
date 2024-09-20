@@ -15,7 +15,7 @@ export default function NavBar() {
   };
 
   return (
-    <div className="bg-white lg:flex-row xl:flex justify-around items-center flex-wrap sticky top-0  p-3 z-10">
+    <div className="bg-white lg:flex-row xl:flex justify-around items-center flex-wrap sticky top-[-1%]  p-3 z-10 ">
       <div className="flex justify-center items-center gap-3 mt-3 flex-wrap">
         <a href="/">  <img
           src={logo}
@@ -218,7 +218,7 @@ industry
                 <li>
                   <a
                     className="border-b bg-red-500 border-b-white text-base hover:border-none hover:text-slate-700 hover:bg-[#e09696] duration-700 py-2 px-4 block whitespace-no-wrap"
-                    href="#"
+                    href="/vision"
                   >
                     Company Vision and Mission
                   </a>
@@ -226,7 +226,7 @@ industry
                 <li>
                   <a
                     className="border-b bg-red-500 border-b-white text-base hover:border-none hover:text-slate-700 hover:bg-[#e09696] duration-700 py-2 px-4 block whitespace-no-wrap"
-                    href="#"
+                    href="/careers"
                   >
                     Company Careers
                   </a>
@@ -240,7 +240,7 @@ industry
                 <li class=" ">
                   <a
                     class="border-b  bg-red-500 border-b-white text-base hover:border-none hover:text-slate-700 hover:bg-[#e09696] duration-700 py-2 px-4 block whitespace-no-wrap"
-                    href="#"
+                    href="/resource"
                   >
                     Enterprise Resource Planning (ERP)
                   </a>
@@ -248,7 +248,7 @@ industry
                 <li class="">
                   <a
                     class="border-b  bg-red-500 border-b-white text-base hover:border-none hover:text-slate-700 hover:bg-[#e09696] duration-700 py-2 px-4 block whitespace-no-wrap"
-                    href="#"
+                    href="/performance"
                   >
                     Enterprise Performance Management (EPM)
                   </a>

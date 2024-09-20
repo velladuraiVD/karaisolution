@@ -4,7 +4,7 @@ import { SocialIcon } from 'react-social-icons'
 
 export default function ContactCard() {
     return (
-        <div className='bg-black flex flex-col items-center  md:flex-row justify-between px-7 '>
+        <div className='bg-black flex flex-col items-center  md:flex-row justify-between px-7  '>
             <div className= 'flex flex-col justify-center items-center md:flex-row  '>
                 <div className='flex items-center'>
                     <SocialIcon bgColor='black' fgColor='white' style={{height:"45px"}} url="www.whatsapp.com" />

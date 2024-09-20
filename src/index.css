@@ -24,9 +24,9 @@ code {
   width: 100%;
   max-width: 2000px;
 }
-li{
+/* li{
   color: white;
-}
+} */
 #footer,p,h3{
   color: gray;
 }
@@ -37,6 +37,6 @@ cursor: pointer;
 .dropdown:hover .dropdown-menu{
   display:block;
 }
-#company li{
-  color:gray;
+  li,p{
+  color:rgb(70, 70, 70);
 }
