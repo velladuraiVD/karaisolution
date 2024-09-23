@@ -51,9 +51,9 @@ export default function Content() {
                         <p className='mt-4 text-sm font-medium leading-6 mb-7'>Enterprise performance management software helps inform future decisions, drive efficiencies, and improve the financial and operational performance of the company.</p>
                     </div>
 
-                    <div className=' md:flex justify-evenly items-center gap-3 '>
-                        <div>
-                            <img src={img} alt="" className='' />
+                    <div className=' md:flex justify-between items-center gap-3 '>
+                        <div className=''>
+                            <img src={img} alt="" className='w-[1400px]' />
                         </div>
                         <div>
                             <h1 className='text-xl font-bold tracking-wider mb-4 '>Core Features</h1>

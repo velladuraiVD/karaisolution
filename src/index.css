@@ -37,6 +37,13 @@ cursor: pointer;
 .dropdown:hover .dropdown-menu{
   display:block;
 }
-  li,p{
+  li{
   color:rgb(70, 70, 70);
+}
+p{
+  color:rgb(70, 70, 70);
+}
+
+#Navbar li{
+  color: black;
 }

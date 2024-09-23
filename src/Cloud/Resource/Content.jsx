@@ -50,8 +50,8 @@ export default function Content() {
                     </div>
 
                     <div className=' md:flex justify-evenly items-center'>
-                        <div>
-                            <img src={img} alt="" className='lg:w-[1000px]' />
+                        <div className=''>
+                            <img src={img} alt="" className='' />
                         </div>
                         <div>
                             <h1 className='text-xl font-bold tracking-wider mb-4 '>Core Features</h1>
