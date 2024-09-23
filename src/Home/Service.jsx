@@ -40,8 +40,8 @@ export default function Service() {
             </div>
 
 
-            <Carousel className='m-12 -z-10'
-                partialVisbile={false}
+            <Carousel className='m-12 '
+                partialVisbile={true}
                 swipeable={false}
                 draggable={false}
                 showDots={false}
@@ -53,18 +53,17 @@ export default function Service() {
                 keyBoardControl={true}
                 customTransition="all 2s"
                 transitionDuration={2000}
-
-
-
-                //   deviceType={this.props.deviceType}
-                dotListClass="custom-dot-list-style"
-
+                arrows={true}
+                removeArrowOnDeviceType={"mobile"}
+                focusOnSelect={true}
+                
+               
             >
-                <div className='bg-black flex flex-col justify-evenly items-center m-8 h-[450px]  hover:bg-red-600 group hover: text-black '>
+                <div className='bg-black flex flex-col justify-evenly items-center m-8 h-[450px]  hover:bg-red-600 group hover:text-black '>
                     <img src={i1} alt="" />
                     <h1 className='text-white text-xl font-bold'>Cloud Service</h1>
                     <p className='text-white text-center text-md leading-8 mx-5'>Cloud Platform Services is an open business platform designed to help you innovate, integrate and enlarge applications</p>
-                    <p className='text-red-700 text-lg font-medium mt-5 group-hover:text-black '><a href="">Read more</a></p>
+                    <p className='text-red-700 text-lg font-medium mt-5 group-hover:text-black '><a href="/cloudservice">Read more</a></p>
                 </div>
 
                 <div className='bg-black flex flex-col justify-evenly items-center m-8 h-[450px]  hover:bg-red-600 group hover: text-black '>

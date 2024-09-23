@@ -199,12 +199,12 @@ export default function NavBar() {
       <div className="hidden md:flex mt-10 mx-8 justify-center items-center flex-wrap xl:mt-0">
         <form>
           <ul className="flex gap-7 flex-wrap   ">
-            <li className="text-xl font-semibold  text-black   hover:text-red-600 md:tex">
-              <a href="/"> Home </a>
+            <li className="text-xl font-semibold  text-black   hover:text-red-600 ">
+              <a href="/" className="   hover:text-red-600"> Home </a>
             </li>
 
             <li className="dropdown cursor-pointer inline-block relative text-xl  font-semibold text-black hover:text-red-600 group">
-              About Us
+              <p className="   hover:text-red-600">About Us</p>
               <ul className="dropdown-menu pt-9 absolute hidden group-hover:block w-60 text-gray-700 ">
                 <li>
                   <a
@@ -234,7 +234,7 @@ export default function NavBar() {
             </li>
 
             <li className=" dropdown  cursor-pointer inline-block relative text-xl font-semibold text-black hover:text-red-600">
-              Cloud Apllications{" "}
+              <p className="   hover:text-red-600">Cloud Applications</p>
               <ul class="dropdown-menu absolute hidden   pt-9  w-60  text-gray-700  ">
                 <li class=" ">
                   <a
@@ -281,7 +281,7 @@ export default function NavBar() {
               </ul>
             </li>
             <li className=" dropdown  cursor-pointer inline-block relative text-xl font-semibold text-black hover:text-red-600">
-              Service & Support
+              <p className=" hover:text-red-600">Service & Support</p>
               <ul class="dropdown-menu absolute hidden    pt-9   w-60  text-gray-700  ">
                 <li class=" ">
                   <a
@@ -350,12 +350,11 @@ export default function NavBar() {
                 </li>
               </ul>
             </li>
-            <li className=" dropdown  cursor-pointer inline-block relative text-xl font-semibold text-black hover:text-red-600">
-              Industries
+            <li className=" dropdown  cursor-pointer inline-block relative text-xl font-semibold text-black">
+              <p className=" hover:text-red-600">Industries</p>
               <ul class="dropdown-menu absolute hidden    pt-9  w-60  text-gray-700 ">
                 <li class=" ">
-                  <a
-                    class="border-b  bg-red-500 border-b-white text-base hover:border-none hover:text-slate-700 hover:bg-[#e09696] duration-700 py-2 px-4 block whitespace-no-wrap"
+                  <a class="border-b  bg-red-500 border-b-white text-base hover:border-none hover:text-slate-700 hover:bg-[#e09696] duration-700 py-2 px-4 block whitespace-no-wrap"
                     href="#"
                   >
                     Banking and Insurance
@@ -428,7 +427,7 @@ export default function NavBar() {
               </ul>
             </li>
             <li className="text-xl font-semibold text-black hover:text-red-600">
-              Contact Us
+              <a href="">Contact Us</a>
             </li>
           </ul>
         </form>

@@ -11,11 +11,11 @@ export default function Content() {
             <div className='lg:flex m-7 gap-3 justify-evenly '>
                 <div className='mt-24 lg:mx-28  flex-row  w-1vw'>
                     <div className='flex flex-col gap-2'>
-                        <a className='border-l-2 border-black bg-gray-400 text-sm font-semibold text-black lg:w-72 p-4  hover:bg-black hover:text-white hover:duration-700' href="/careers"> <button >Enterprise Resource planning (ERP)</button></a>
-                        <a className='border-l-2 border-black bg-gray-400 text-sm font-semibold text-black lg:w-72 p-4  hover:bg-black hover:text-white hover:duration-700' href="/company"> <button >Enterprise Performance Management (EPM)</button></a>
-                        <a className='border-2  border-black bg-black text-sm font-semibold text-white p-4 lg:w-72 ' href="/vision">  <button >Supply Chain & Manufacturing (SCM)</button></a>
-                        <a className='border-l-2 border-black bg-gray-400 text-sm font-semibold text-black lg:w-72 p-4  hover:bg-black hover:text-white hover:duration-700' href="/company"> <button>Human Capital Management (HCM)</button></a>
-                        <a className='border-l-2 border-black bg-gray-400 text-sm font-semibold text-black lg:w-72 p-4  hover:bg-black hover:text-white hover:duration-700' href="/company"> <button >Advertising and Customer Experience (CX)</button></a>
+                        <a className='border-l-2 border-black bg-gray-400 text-sm font-semibold text-black lg:w-72 p-4  hover:bg-black hover:text-white hover:duration-700' href="/resource"> <button >Enterprise Resource planning (ERP)</button></a>
+                        <a className='border-l-2 border-black bg-gray-400 text-sm font-semibold text-black lg:w-72 p-4  hover:bg-black hover:text-white hover:duration-700' href="/performance"> <button >Enterprise Performance Management (EPM)</button></a>
+                        <a className='border-2  border-black bg-black text-sm font-semibold text-white p-4 lg:w-72 ' href="/supply">  <button >Supply Chain & Manufacturing (SCM)</button></a>
+                        <a className='border-l-2 border-black bg-gray-400 text-sm font-semibold text-black lg:w-72 p-4  hover:bg-black hover:text-white hover:duration-700' href="/human"> <button>Human Capital Management (HCM)</button></a>
+                        <a className='border-l-2 border-black bg-gray-400 text-sm font-semibold text-black lg:w-72 p-4  hover:bg-black hover:text-white hover:duration-700' href="/advertise"> <button >Advertising and Customer Experience (CX)</button></a>
 
                     </div>
                     <div className='mt-8  '>

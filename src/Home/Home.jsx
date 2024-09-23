@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Carousel from './Carousel'
 import Mission from './Mission'
 import Service from './Service'
@@ -9,12 +10,15 @@ import Appoinment from './Appoinment'
 
 export default function Home() {
     return (
-        <div className=''>
+        <div className=''
+
+      
+      >
            
             <Carousel />
             <Mission />
             <Service />
-            {/* <Contact className='absolute'/> */}
+            <Contact />
             <Cloud/>
             <Appoinment/>
 

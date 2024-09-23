@@ -12,19 +12,19 @@ export default function Mission() {
                 <div className=' sm:w-[300px] h-[400px] md:w-[300px] p-2 bg-[#ffff] shadow-[1px_0px_10px_1px] shadow-slate-500 m-4 hover:-translate-y-4 duration-500 hover:shadow-[0px_3px_10px_0px]  '>
                     <h1 className='text-3xl font-bold mt-4 px-3' >Our Vision</h1>
                     <p className=' sm:h-auto sm:w-auto md:text-lg font-semibold text-gray-700 mt-3 p-3'>Our vision is to become the most notable global IT service provider offering Software Development services to businesses worldwide.</p>
-                    <p className='mt-4 text-lg font-semibold text-[#3b8aff] p-3'><a href="">Read more</a></p>
+                    <p className='mt-4 text-lg font-semibold text-[#3b8aff] p-3'><a href="/company">Read more</a></p>
                 </div>
 
                 <div className='sm:w-[300px] h-[400px] md:w-[300px] p-2 bg-[#ffff] shadow-[1px_0px_30px_1px]  shadow-slate-500 m-4 hover:-translate-y-4 duration-500 hover:shadow-[0px_3px_10px_0px] '>
                     <h1 className='text-3xl font-bold mt-4 px-3'>Our Mission</h1>
                     <p className='text-lg font-semibold text-gray-700 mt-3 p-3'>To make IT simple for our customers, replacing the burden of high contact IT services with intelligently designed solutions that span from consultancy,</p>
-                    <p className='mt-4 text-lg font-semibold text-[#3b8aff] p-3'><a href="">Read more</a></p>
+                    <p className='mt-4 text-lg font-semibold text-[#3b8aff] p-3'><a href="/vision">Read more</a></p>
                 </div>
 
                 <div className='sm:w-[300px]  h-[400px] md:w-[300px] p-2 bg-[#ffff] shadow-[1px_0px_30px_1px]  shadow-slate-500 m-4 hover:-translate-y-4 duration-500 hover:shadow-[0px_3px_10px_0px]'>
-                    <h1 className='text-3xl font-bold mt-4 px-3'>Our Vision</h1>
+                    <h1 className='text-3xl font-bold mt-4 px-3'>OUR EXPERTISE</h1>
                     <p className='text-lg font-semibold text-gray-700 mt-3 p-3'>We see ourselves as IT Champions for our customers, providing not only reactive support but also proactive guidance on how IT can best</p>
-                    <p className='mt-4 text-lg font-semibold text-[#3b8aff] p-3'><a href="">Read more</a></p>
+                    <p className='mt-4 text-lg font-semibold text-[#3b8aff] p-3'><a href="/careers">Read more</a></p>
                 </div>
 
             </div>
