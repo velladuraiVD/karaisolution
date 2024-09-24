@@ -20,6 +20,7 @@ import Internet from './Service/Internet/Internet';
 import IT from './Service/IT/IT';
 import Marketing from './Service/Marketing/Marketing';
 import Industry from './Service/Industry/Industry';
+import Contact from './Contact/Contact';
 
 
 function App() {
@@ -55,6 +56,8 @@ function App() {
               <Route path='/internet' element={<Internet/>} />
               <Route path='/IT' element={<IT/>} />
               <Route path='/marketing' element={<Marketing/>} />
+              <Route path='/contact' element={<Contact/>} />
+
 
             </Routes>
           </BrowserRouter>

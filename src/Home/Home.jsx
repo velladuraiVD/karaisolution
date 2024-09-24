@@ -10,17 +10,14 @@ import Appoinment from './Appoinment'
 
 export default function Home() {
     return (
-        <div className=''
+        <div className=''>
 
-      
-      >
-           
             <Carousel />
             <Mission />
             <Service />
             <Contact />
-            <Cloud/>
-            <Appoinment/>
+            <Cloud />
+            <Appoinment />
 
 
         </div>

@@ -22,34 +22,32 @@ export default function Footer() {
 
                 <div className='leading-10 p-6'>
                     <h1 className='text-2xl mb-4 text-white '>Quick Links</h1>
-                    <h3>Home</h3>
-                    <h3> <a href='/company
-                    '>  Company Overview </a></h3>
-                    <h3>Company Vision and</h3>
-                    <h3>Mission</h3>
-                    <h3>Company Careers</h3>
-                    <h3>Contact Us</h3>
+                    <h3><a href="/">Home</a></h3>
+                    <h3> <a href='/company'>  Company Overview </a></h3>
+                    <h3><a href="/vision">Company Vision and Mission</a></h3>
+                    <h3><a href="/careers">Company Careers</a></h3>
+                    <h3><a href="/contact">Contact Us</a></h3>
                 </div>
 
                 <div className='leading-10 p-7' >
                     <h1 className='text-2xl mb-4 text-white'>Cloud Applications</h1>
-                    <h3>Enterprise Resource Planning (ERP)</h3>
-                    <h3>Enterprise Performance Management (EPM)</h3>
-                    <h3>Supply Chain & Manufacturing (SCM)</h3>
-                    <h3>Human Capital Management (HCM)</h3>
-                    <h3>Advertising and Customer Experience (CX)</h3>
+                    <h3><a href="/resource">Enterprise Resource Planning (ERP)</a></h3>
+                    <h3><a href="/performance">Enterprise Performance Management (EPM)</a></h3>
+                    <h3><a href="/supply">Supply Chain & Manufacturing (SCM)</a></h3>
+                    <h3><a href="/human">Human Capital Management (HCM)</a></h3>
+                    <h3><a href="/advertise">Advertising and Customer Experience (CX)</a></h3>
                 </div>
 
                 <div className='leading-10 p-7'>
                     <h1 className='text-2xl mb-4 text-white'>Service & Support</h1>
-                    <h3>Cloud Service</h3>
-                    <h3>Content Management System (CMS)</h3>
-                    <h3>DevOps</h3>
-                    <h3>E - Commerce</h3>
-                    <h3>Industry Solutions</h3>
-                    <h3>Internet of Things (IoT)</h3>
-                    <h3>IT Infrastructure & Security</h3>
-                    <h3>Marketing Automation</h3>
+                    <h3><a href="/cloudservice">Cloud Service</a></h3>
+                    <h3><a href="/cms">Content Management System (CMS)</a></h3>
+                    <h3><a href="/devops">DevOps</a></h3>
+                    <h3><a href="/ecommerce">E - Commerce</a></h3>
+                    <h3><a href="/industry">Industry Solutions</a></h3>
+                    <h3><a href="/internet">Internet of Things (IoT)</a></h3>
+                    <h3><a href="/IT">IT Infrastructure & Security</a></h3>
+                    <h3><a href="/marketing">Marketing Automation</a></h3>
                 </div>
             </div>
             <div className='bg-black text-center p-5 mx-2  '>

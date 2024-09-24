@@ -59,10 +59,10 @@ export default function NavBar() {
                 <a href="/company">Company Overview</a>
               </li>
               <li className="p-2 border-b border-white bg-[#424141] hover:text-white">
-                <a href="#">Company Vision and Mission</a>
+                <a href="/vision">Company Vision and Mission</a>
               </li>
               <li className="p-2 border-b border-white bg-[#424141] hover:text-white">
-                <a href="#">Company Careers</a>
+                <a href="careers">Company Careers</a>
               </li>
             </ul>
           </li>
@@ -83,19 +83,19 @@ export default function NavBar() {
                 }`}
             >
               <li className="p-2 border-b bg-[#424141] border-white hover:text-white">
-                <a href="#">Enterprise Resource Planning (ERP)</a>
+                <a href="/resource">Enterprise Resource Planning (ERP)</a>
               </li>
               <li className="p-2 border-b bg-[#424141] border-white hover:text-white">
-                <a href="#">Enterprise Performance Management (EPM)</a>
+                <a href="/performance">Enterprise Performance Management (EPM)</a>
               </li>
               <li className="p-2 border-b bg-[#424141] border-white hover:text-white">
-                <a href="#">Supply Chain & Manufacturing (SCM)</a>
+                <a href="/supply">Supply Chain & Manufacturing (SCM)</a>
               </li>
               <li className="p-2 border-b bg-[#424141] border-white hover:text-white">
-                <a href="#">Human Capital Management (HCM)</a>
+                <a href="/human">Human Capital Management (HCM)</a>
               </li>
               <li className="p-2 border-b bg-[#424141] border-white hover:text-white">
-                <a href="#">Advertising and Customer Experience (CX)</a>
+                <a href="/advertise">Advertising and Customer Experience (CX)</a>
               </li>
             </ul>
           </li>
@@ -116,28 +116,28 @@ export default function NavBar() {
                 }`}
             >
               <li className="p-2 border-b bg-[#424141] border-white hover:text-white">
-                <a href="#">Cloud Service</a>
+                <a href="/cloudservice">Cloud Service</a>
               </li>
               <li className="p-2 border-b bg-[#424141] border-white hover:text-white">
-                <a href="#">DevOps</a>
+                <a href="/devops">DevOps</a>
               </li>
               <li className="p-2 border-b bg-[#424141] border-white hover:text-white">
-                <a href="#">Content Management System (CMS)</a>
+                <a href="/cms">Content Management System (CMS)</a>
               </li>
               <li className="p-2 border-b bg-[#424141] border-white hover:text-white">
-                <a href="#">E-Commerce</a>
+                <a href="/ecommerce">E-Commerce</a>
               </li>
               <li className="p-2 border-b bg-[#424141] border-white hover:text-white">
-                <a href="#">Industry Solutions</a>
+                <a href="/industry">Industry Solutions</a>
               </li>
               <li className="p-2 border-b bg-[#424141] border-white hover:text-white">
-                <a href="#">Internet of Things</a>
+                <a href="/internet">Internet of Things</a>
               </li>
               <li className="p-2 border-b bg-[#424141] border-white hover:text-white">
-                <a href="#">IT Infrastructure & Security</a>
+                <a href="IT">IT Infrastructure & Security</a>
               </li>
               <li className="p-2 border-b bg-[#424141] border-white hover:text-white">
-                <a href="#">Marketing Automation</a>
+                <a href="/marketing">Marketing Automation</a>
               </li>
             </ul>
 
@@ -191,7 +191,7 @@ export default function NavBar() {
           </li>
 
           <li className="p-2 border-b-2 bg-[#424141] border-white hover:text-white">
-            <a href="#">Contact Us</a>
+            <a href="/contact">Contact Us</a>
           </li>
         </ul>
       )}
@@ -426,8 +426,8 @@ export default function NavBar() {
                 </li>
               </ul>
             </li>
-            <li className="text-xl font-semibold text-black hover:text-red-600">
-              <a href="">Contact Us</a>
+            <li className="text-xl font-semibold text-black ">
+              <a href="/contact" className="hover:text-red-600">Contact Us</a>
             </li>
           </ul>
         </form>
