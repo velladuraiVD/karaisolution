@@ -3,7 +3,7 @@ import React from 'react'
 export default function Content() {
     return (
         <div className='flex justify-evenly flex-wrap my-6 mx-4'>
-            <div className='mx-24' >
+            <div className='mx-7' >
                 <h1 className='tracking-[3px] my-5 text-lg font-medium  text-gray-600'>CONTACT US</h1>
                 <h2 className='font-bold text-base'>Kar AI Solutions Private Limited</h2>
                 <h2 className='text-base font-medium my-1'>1st floor, Muthuganesh Building, 9/6, Avvaiyar Street,  </h2>
@@ -14,7 +14,7 @@ export default function Content() {
                 <h2 className='text-base font-medium my-1'>Email: Name@gamil.com</h2>
                 <h2 className='text-base font-medium my-1'> phone:8870564334</h2>
             </div>
-            <div className='md:w-[40%] ' >
+            <div className='w-[100%] md:w-[40%] ' >
 
                 <h1 className=' tracking-[3px] my-5 text-lg font-medium text-gray-600'>QUICK ENQUIRY</h1>
 

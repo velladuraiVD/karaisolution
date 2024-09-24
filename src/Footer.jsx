@@ -51,7 +51,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className='bg-black text-center p-5 mx-2  '>
-                <p>© Copyright 2021Supreme Supreme Soft Tech Solutions Co Ltd . All right reserved.</p>
+                <p className='text-gray-300'>© Copyright 2021Supreme Supreme Soft Tech Solutions Co Ltd . All right reserved.</p>
             </div>
         </div>
     )

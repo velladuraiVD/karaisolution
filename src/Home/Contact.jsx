@@ -5,9 +5,9 @@ export default function Contact() {
   return (
    
 
-      <div className="relative h-[500px] md:h-[350px] bg-fixed bg-cover bg-center z-0" style={{ backgroundImage: `url(${img})` }}>
+      <div className="relative h-[650px] md:h-[350px] bg-fixed bg-cover bg-center z-0" style={{ backgroundImage: `url(${img})` }}>
 
-        <div className='bg-[#000000] opacity-85 h-[500px] md:h-[350px] '>
+        <div className='bg-[#000000ee] opacity-85 h-[650px] md:h-[350px] '>
 
           <div className="relative z-10 p-10 m-4 w-auto text-center   bg-opacity-100  mx-auto bg-transparent ">
             <h1 className="text-5xl font-bold mb-2 text-white">We are passionate about our work &</h1>
