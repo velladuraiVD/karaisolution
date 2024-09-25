@@ -427,7 +427,7 @@ export default function NavBar() {
               </ul>
             </li>
             <li className="text-xl font-semibold text-black ">
-              <a href="/contact" className="">Contact Us</a>
+              <a href="/contact" className="hover:text-red-500">Contact Us</a>
             </li>
           </ul>
         </form>
