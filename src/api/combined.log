@@ -33,3 +33,11 @@
 2024-09-25T07:43:47.413Z info: Connected to PostgreSQL database
 2024-09-25T07:43:47.453Z info: Meetings table has been created or already exists.
 2024-09-25T07:43:48.210Z info: Email transporter is ready
+2024-09-25T07:44:36.861Z info: Email sent to user:
+2024-09-25T07:44:36.861Z info: Meeting scheduled email sent to kevinto351@gmail.com
+2024-09-25T07:44:37.029Z info: Email sent to admin:
+2024-09-25T07:44:37.029Z info: Meeting scheduled email sent to kevinto351@gmail.com
+2024-09-25T07:45:47.753Z info: Email sent to admin:
+2024-09-25T07:45:47.753Z info: Meeting scheduled email sent to hariharanbalusamy88@gmail.com
+2024-09-25T07:45:48.478Z info: Email sent to user:
+2024-09-25T07:45:48.479Z info: Meeting scheduled email sent to hariharanbalusamy88@gmail.com
