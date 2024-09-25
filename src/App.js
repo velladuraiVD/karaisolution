@@ -21,18 +21,21 @@ import IT from './Service/IT/IT';
 import Marketing from './Service/Marketing/Marketing';
 import Industry from './Service/Industry/Industry';
 import Contact from './Contact/Contact';
-
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
 
     <>
+       <ToastContainer position='top-center' />
 
       <div className='flex justify-center items-center'>
 
         <div className='container'>
           <ContactCard  />
           <NavBar />
+       
 
           <BrowserRouter>
 

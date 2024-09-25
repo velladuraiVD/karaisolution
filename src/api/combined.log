@@ -1,0 +1,35 @@
+2024-09-25T07:05:58.028Z info: Server is running on port 8000
+2024-09-25T07:05:58.105Z error: Error connecting to MySQL database:
+2024-09-25T07:06:00.111Z info: Email transporter is ready
+2024-09-25T07:16:09.995Z info: Server is running on http://localhost:8000
+2024-09-25T07:16:10.034Z info: Connected to PostgreSQL database
+2024-09-25T07:16:11.082Z info: Email transporter is ready
+2024-09-25T07:21:53.199Z error: Error processing schedule-meeting: relation "meetings" does not exist
+2024-09-25T07:26:30.966Z info: Server is running on http://localhost:8000
+2024-09-25T07:26:31.002Z info: Connected to PostgreSQL database
+2024-09-25T07:26:31.093Z info: Meetings table has been created or already exists.
+2024-09-25T07:26:31.845Z info: Email transporter is ready
+2024-09-25T07:27:14.756Z info: Email sent to user:
+2024-09-25T07:27:14.757Z info: Meeting scheduled email sent to haraiharanbalusamy7@gmail.com
+2024-09-25T07:27:15.258Z info: Email sent to admin:
+2024-09-25T07:27:15.258Z info: Meeting scheduled email sent to haraiharanbalusamy7@gmail.com
+2024-09-25T07:27:31.334Z info: Email sent to admin:
+2024-09-25T07:27:31.335Z info: Meeting scheduled email sent to haraiharanbalusamy88@gmail.com
+2024-09-25T07:27:31.656Z info: Email sent to user:
+2024-09-25T07:27:31.657Z info: Meeting scheduled email sent to haraiharanbalusamy88@gmail.com
+2024-09-25T07:28:42.502Z info: Email sent to user:
+2024-09-25T07:28:42.502Z info: Meeting scheduled email sent to hariharanbalusamy88@gmail.com
+2024-09-25T07:28:43.179Z info: Email sent to admin:
+2024-09-25T07:28:43.180Z info: Meeting scheduled email sent to hariharanbalusamy88@gmail.com
+2024-09-25T07:31:55.269Z info: Email sent to user:
+2024-09-25T07:31:55.269Z info: Meeting scheduled email sent to hariharanbalusamy88@gmail.com
+2024-09-25T07:31:56.209Z info: Email sent to admin:
+2024-09-25T07:31:56.209Z info: Meeting scheduled email sent to hariharanbalusamy88@gmail.com
+2024-09-25T07:36:26.321Z info: Email sent to user:
+2024-09-25T07:36:26.342Z info: Meeting scheduled email sent to velladurai3007@gmail.com
+2024-09-25T07:36:27.073Z info: Email sent to admin:
+2024-09-25T07:36:27.074Z info: Meeting scheduled email sent to velladurai3007@gmail.com
+2024-09-25T07:43:47.341Z info: Server is running on http://localhost:8000
+2024-09-25T07:43:47.413Z info: Connected to PostgreSQL database
+2024-09-25T07:43:47.453Z info: Meetings table has been created or already exists.
+2024-09-25T07:43:48.210Z info: Email transporter is ready
