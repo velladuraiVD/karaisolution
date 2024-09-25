@@ -1,0 +1,2 @@
+2024-09-25T07:05:58.105Z error: Error connecting to MySQL database:
+2024-09-25T07:21:53.199Z error: Error processing schedule-meeting: relation "meetings" does not exist
