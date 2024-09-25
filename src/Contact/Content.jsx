@@ -109,11 +109,11 @@ export default function Content() {
           <div>
             <input
               type='text'
-              name='company:'
+              name='company'
               value={data.company}
               onChange={handleChange}
               className='block p-3 w-full text-black font-medium text-base bg-gray-50 rounded-lg border border-black shadow-sm focus:ring-primary-500 focus:border-primary-500 placeholder-black'
-              placeholder='company'
+              placeholder='company:'
             />
           </div>
           <div className='sm:col-span-2'>

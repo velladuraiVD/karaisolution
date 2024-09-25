@@ -33,3 +33,19 @@
 2024-09-25T07:43:47.413Z info: Connected to PostgreSQL database
 2024-09-25T07:43:47.453Z info: Meetings table has been created or already exists.
 2024-09-25T07:43:48.210Z info: Email transporter is ready
+2024-09-25T08:02:11.963Z info: Server is running on http://localhost:8000
+2024-09-25T08:02:12.073Z error: Error connecting to PostgreSQL database:
+2024-09-25T08:02:13.665Z info: Email transporter is ready
+2024-09-25T08:05:00.048Z error: Error processing schedule-meeting: password authentication failed for user "postgres"
+2024-09-25T09:22:08.123Z info: Server is running on http://localhost:8000
+2024-09-25T09:22:08.206Z info: Connected to PostgreSQL database
+2024-09-25T09:22:08.247Z info: Meetings table has been created or already exists.
+2024-09-25T09:22:09.243Z info: Email transporter is ready
+2024-09-25T09:22:45.312Z info: Email sent to user:
+2024-09-25T09:22:45.312Z info: Meeting scheduled email sent to velladurai3007@gmail.com
+2024-09-25T09:22:45.746Z info: Email sent to admin:
+2024-09-25T09:22:45.747Z info: Meeting scheduled email sent to velladurai3007@gmail.com
+2024-09-25T10:32:12.266Z info: Email sent to user:
+2024-09-25T10:32:12.266Z info: Meeting scheduled email sent to vellavicky1@gmail.com
+2024-09-25T10:32:12.400Z info: Email sent to admin:
+2024-09-25T10:32:12.400Z info: Meeting scheduled email sent to vellavicky1@gmail.com
