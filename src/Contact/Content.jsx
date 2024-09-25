@@ -8,7 +8,6 @@ export default function Content() {
                 <h2 className='font-bold text-base'>Kar AI Solutions Private Limited</h2>
                 <h2 className='text-base font-medium my-1'>1st floor, Muthuganesh Building, 9/6, Avvaiyar Street,  </h2>
                 <h2 className='text-base font-medium my-1'>Sriramnagar, Kottaiyur,</h2>
-                
                 <h2 className='text-base font-medium my-1'>Karaikudi,</h2>
                 <h2 className='text-base font-medium my-1'>Tamil Nadu 630106,</h2>
                 <h2 className='text-base font-medium my-1'>Email: Name@gamil.com</h2>

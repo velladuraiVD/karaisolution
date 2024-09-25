@@ -31,7 +31,7 @@ function App() {
       <div className='flex justify-center items-center'>
 
         <div className='container'>
-          <ContactCard />
+          <ContactCard  />
           <NavBar />
 
           <BrowserRouter>

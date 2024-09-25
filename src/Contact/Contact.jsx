@@ -5,8 +5,9 @@ import Hero from './Hero'
 export default function Contact() {
   return (
     <div>
-      <Content/>
       <Hero/>
+      <Content/>
+      
     </div>
   )
 }
