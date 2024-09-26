@@ -41,7 +41,7 @@ export default function Content() {
                     <div className='w-[]'>
                         <h1 className='text-xl font-bold tracking-wider '>COMPANY OVERVIEW</h1>
                         <p className='mt-4 text-sm font-normal  '>Full Service Oracle Shop For 24/7 Expert Services on Oracle Engineered System, Database Support and Cyber Security</p>
-                        <p className='mt-4 text-sm font-normal '>We are Supreme, a premium Oracle Gold Partner renowned for our expert implementation and 24/7 support services on Oracle Engineered System, Database migration with Oracle Golden Gate, Technology Consulting and Cyber Security audits. We proudly bring on-board our collective experience ensuring all your Oracle database management, cyber security and technology development needs are fulfilled.</p>
+                        <p className='mt-4 text-sm font-normal '>We are Kar AI Solutions, a premium Oracle Gold Partner renowned for our expert implementation and 24/7 support services on Oracle Engineered System, Database migration with Oracle Golden Gate, Technology Consulting and Cyber Security audits. We proudly bring on-board our collective experience ensuring all your Oracle database management, cyber security and technology development needs are fulfilled.</p>
                     </div>
                     <div className='mt-14'>
                         <h1 className='text-xl font-bold tracking-wider '>CORE VALUES</h1>

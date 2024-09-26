@@ -24,10 +24,7 @@ export default function NavBar() {
         /></a>
 
         <div className="flex-row justify-center xl:flex-col ">
-          <h1 className="text-2xl font-bold">Kar Ai Solutions</h1>
-          <h1 className="md:block text-2xl font-bold">
-            Private Limited (PVT LTD)
-          </h1>
+          <h1 className="text-2xl font-bold">KarAi </h1>
         </div>
         <button onClick={toggleMenu} className="md:hidden  bg-yellow-500">
           <IoIosMenu className="text-3xl text-white" />
@@ -143,7 +140,7 @@ export default function NavBar() {
 
           </li>
 
-          <li
+          {/* <li
             className={`p-2 border-b-2 bg-[#424141] border-white hover:text-white relative`}
             onClick={() => toggleDropdown("industry")}
           >
@@ -188,7 +185,7 @@ export default function NavBar() {
               </li>
             </ul>
 
-          </li>
+          </li> */}
 
           <li className="p-2 border-b-2 bg-[#424141] border-white hover:text-white">
             <a href="/contact">Contact Us</a>
@@ -350,7 +347,7 @@ export default function NavBar() {
                 </li>
               </ul>
             </li>
-            <li className=" dropdown  cursor-pointer inline-block relative text-xl font-semibold text-black">
+            {/* <li className=" dropdown  cursor-pointer inline-block relative text-xl font-semibold text-black">
               <p className=" hover:text-red-600">Industries</p>
               <ul class="dropdown-menu absolute hidden    pt-9  w-60  text-gray-700 ">
                 <li class=" ">
@@ -425,7 +422,7 @@ export default function NavBar() {
                   </a>
                 </li>
               </ul>
-            </li>
+            </li> */}
             <li className="text-xl font-semibold text-black ">
               <a href="/contact" className="hover:text-red-500">Contact Us</a>
             </li>
