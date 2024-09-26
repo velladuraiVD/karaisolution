@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useState } from 'react'
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
 import { RxDotFilled } from 'react-icons/rx'
 import image1 from "../Assets/1.jpg"
 import image2 from "../Assets/2.jpg"
+
 export default function Carousel() {
 
     const slides = [
@@ -32,14 +33,27 @@ export default function Carousel() {
     const goToSlide = (slideIndex)=>{
         setcurrentIndex(slideIndex)
     }
-
+    useEffect(() => {
+        const interval = setInterval(() => {
+        setcurrentIndex((prevIndex) => 
+            prevIndex === slides.length - 1 ? 0 : prevIndex + 1
+          );
+        }, 6000); 
+    
+        return () => {
+          clearInterval(interval); 
+        };
+      }, [slides.length]);
     return (
         <div className='w-full m-auto relative group object-cover'> 
             {/* Image Div */}
             <div 
                 style={{ backgroundImage: `url(${slides[currentIndex].img})` }} 
-                className='w-full h-[25vh] sm:h-[35vh] md:h-[40vh] lg:h-[70vh]  bg-center bg-cover duration-500'
-            ></div>
+               className='w-full h-[25vh] sm:h-[35vh] md:h-[40vh] lg:h-[70vh] bg-center bg-cover duration-500'
+            >
+
+
+            </div>
     
             {/* Left Arrow */}
             <div 
